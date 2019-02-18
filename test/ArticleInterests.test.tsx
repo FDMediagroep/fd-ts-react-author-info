@@ -1,25 +1,6 @@
 import TestRenderer from 'react-test-renderer';
 import AuthorInfo from '../src/AuthorInfo';
 import React from 'react';
-import uniqid from 'uniqid';
-
-const onDisableAlertClick = () => {};
-const onEnableAlertClick = () => {};
-const onFollowClick = () => {};
-const onUnfollowClick = () => {};
-const interests = [{
-    tag: 'Detailhandel',
-    uuid: uniqid()
-}, {
-    selected: true,
-    tag: 'Eten & Drinken',
-    uuid: uniqid()
-}, {
-    alertSelected: true,
-    selected: true,
-    tag: 'Supermarkt',
-    uuid: uniqid()
-}];
 
 describe('AuthorInfo', () => {
     test('renders correctly', () => {
