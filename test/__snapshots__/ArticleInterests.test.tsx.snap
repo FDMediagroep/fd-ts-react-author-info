@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorInfo renders correctly 1`] = `
+<div
+  cardStyle="default"
+  className="fd-card fd-author-info default"
+>
+  <div
+    className="profile"
+  >
+    <img
+      alt="Nelleke Trappenburg"
+      src="https://images.fd.nl/ffa583e0c7fbc666934ecc326a88defc2773f4e9.jpeg?fit=crop&crop=faces&auto=format&q=45&cs=tinysrgb&w=640&h=640&fm=jpg"
+    />
+    <h3
+      className="fd-typography card-h fd-author-info-h"
+      textStyle="card-h"
+    >
+      Nelleke Trappenburg
+    </h3>
+    <div
+      className="description"
+    >
+      <p>
+        Nelleke Trappenburg schrijft bij het FD over pensioenen: dekkingsgraden, beleggingskosten, nieuwe wetgeving etc. Eerder werkte zij onder meer op de beursredactie.
+      </p>
+    </div>
+  </div>
+  <div
+    className="controls"
+  >
+    <button
+      className="fd-follow-button default"
+      data-addurl="/add-interest"
+      data-deleteurl="/delete-interest"
+      data-tag="Van onze redacteur"
+      onClick={[Function]}
+    >
+      <span
+        className="cross"
+      />
+       
+      <span
+        className="button-text default-text"
+      >
+        Volg deze auteur
+      </span>
+      <span
+        className="button-text active-text"
+      >
+        Ontvolg
+      </span>
+    </button>
+    <button
+      className="fd-button"
+      onClick={[Function]}
+    >
+      <i
+        className="icon-envelope"
+      />
+       E-mail
+    </button>
+    <button
+      className="fd-button"
+      onClick={[Function]}
+    >
+      <i
+        className="icon-twitter"
+      />
+      Twitter
+    </button>
+    <button
+      className="fd-button"
+      onClick={[Function]}
+    >
+      <i
+        className="icon-linkedin-in"
+      />
+      LinkedIn
+    </button>
+  </div>
+</div>
+`;
+
+exports[`AuthorInfo renders correctly 2`] = `
+<div
+  cardStyle="persoonlijk"
+  className="fd-card fd-author-info persoonlijk"
+>
+  <div
+    className="profile"
+  >
+    <img
+      alt="Nelleke Trappenburg"
+      src="https://images.fd.nl/ffa583e0c7fbc666934ecc326a88defc2773f4e9.jpeg?fit=crop&crop=faces&auto=format&q=45&cs=tinysrgb&w=640&h=640&fm=jpg"
+    />
+    <h3
+      className="fd-typography card-h fd-author-info-h"
+      textStyle="card-h"
+    >
+      Nelleke Trappenburg
+    </h3>
+    <div
+      className="description"
+    >
+      <p>
+        Nelleke Trappenburg schrijft bij het FD over pensioenen: dekkingsgraden, beleggingskosten, nieuwe wetgeving etc. Eerder werkte zij onder meer op de beursredactie.
+      </p>
+    </div>
+  </div>
+  <div
+    className="controls"
+  >
+    <button
+      className="fd-follow-button persoonlijk"
+      data-addurl="/add-interest"
+      data-deleteurl="/delete-interest"
+      data-tag="Van onze redacteur"
+      onClick={[Function]}
+    >
+      <span
+        className="cross"
+      />
+       
+      <span
+        className="button-text default-text"
+      >
+        Volg deze auteur
+      </span>
+      <span
+        className="button-text active-text"
+      >
+        Ontvolg
+      </span>
+    </button>
+    <button
+      className="fd-button"
+      onClick={[Function]}
+    >
+      <i
+        className="icon-envelope"
+      />
+       E-mail
+    </button>
+    <button
+      className="fd-button"
+      onClick={[Function]}
+    >
+      <i
+        className="icon-twitter"
+      />
+      Twitter
+    </button>
+    <button
+      className="fd-button"
+      onClick={[Function]}
+    >
+      <i
+        className="icon-linkedin-in"
+      />
+      LinkedIn
+    </button>
+  </div>
+</div>
+`;
