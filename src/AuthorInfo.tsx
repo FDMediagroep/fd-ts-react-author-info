@@ -10,26 +10,17 @@ export interface Props {
     title: string;
     description: JSX.Element;
     followed?: boolean;
+    onEmailClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
     onFollowAuthorClick?: (follow: boolean) => void;
+    onLinkedInClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
+    onTwitterClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
 export default class AuthorInfo extends PureComponent<Props, any> {
-    onEmailClick = () => {
-        alert('E-mail');
-    }
-
     onFollowAuthorClick = (e: React.MouseEvent<HTMLButtonElement>) => {
         if (this.props.onFollowAuthorClick) {
-            this.props.onFollowAuthorClick(e.currentTarget.getAttribute('data-selected') === 'true');
+            this.props.onFollowAuthorClick(e.currentTarget.getAttribute('data-selected') !== 'true');
         }
-    }
-
-    onLinkedInClick = () => {
-        alert('LinkedIn');
-    }
-    
-    onTwitterClick = () => {
-        alert('Twitter');
     }
 
     render() {
@@ -50,9 +41,9 @@ export default class AuthorInfo extends PureComponent<Props, any> {
                             onClick={this.onFollowAuthorClick}
                             followButtonText="Volg deze auteur"
                         />
-                        <ButtonEditorial onClick={this.onEmailClick}><i className="icon-envelope"/> E-mail</ButtonEditorial>
-                        <ButtonEditorial onClick={this.onTwitterClick}><i className="icon-twitter"/>Twitter</ButtonEditorial>
-                        <ButtonEditorial onClick={this.onLinkedInClick}><i className="icon-linkedin-in"/>LinkedIn</ButtonEditorial>
+                        {this.props.onEmailClick ? <ButtonEditorial onClick={this.props.onEmailClick}><i className="icon-envelope"/> E-mail</ButtonEditorial> : null}
+                        {this.props.onTwitterClick ? <ButtonEditorial onClick={this.props.onTwitterClick}><i className="icon-twitter"/>Twitter</ButtonEditorial> : null}
+                        {this.props.onLinkedInClick ? <ButtonEditorial onClick={this.props.onLinkedInClick}><i className="icon-linkedin-in"/>LinkedIn</ButtonEditorial> : null}
                     </div>
                 </Card>
             </>

@@ -51,33 +51,6 @@ exports[`AuthorInfo renders correctly 1`] = `
         Ontvolg
       </span>
     </button>
-    <button
-      className="fd-button"
-      onClick={[Function]}
-    >
-      <i
-        className="icon-envelope"
-      />
-       E-mail
-    </button>
-    <button
-      className="fd-button"
-      onClick={[Function]}
-    >
-      <i
-        className="icon-twitter"
-      />
-      Twitter
-    </button>
-    <button
-      className="fd-button"
-      onClick={[Function]}
-    >
-      <i
-        className="icon-linkedin-in"
-      />
-      LinkedIn
-    </button>
   </div>
 </div>
 `;

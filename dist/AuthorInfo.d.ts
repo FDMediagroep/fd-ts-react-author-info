@@ -6,13 +6,13 @@ export interface Props {
     title: string;
     description: JSX.Element;
     followed?: boolean;
+    onEmailClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
     onFollowAuthorClick?: (follow: boolean) => void;
+    onLinkedInClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
+    onTwitterClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 export default class AuthorInfo extends PureComponent<Props, any> {
-    onEmailClick: () => void;
     onFollowAuthorClick: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
-    onLinkedInClick: () => void;
-    onTwitterClick: () => void;
     render(): JSX.Element;
 }
 export declare const AuthorInfoStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;

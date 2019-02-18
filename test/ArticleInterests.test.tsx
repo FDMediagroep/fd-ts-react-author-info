@@ -33,6 +33,31 @@ describe('AuthorInfo', () => {
         authorInfo = TestRenderer.create(<AuthorInfo
             cardStyle="persoonlijk"
             description={<p>Nelleke Trappenburg schrijft bij het FD over pensioenen: dekkingsgraden, beleggingskosten, nieuwe wetgeving etc. Eerder werkte zij onder meer op de beursredactie.</p>}
+            onFollowAuthorClick={() => {}}
+            title="Nelleke Trappenburg"
+        />);
+        authorInfo = TestRenderer.create(<AuthorInfo
+            cardStyle="persoonlijk"
+            description={<p>Nelleke Trappenburg schrijft bij het FD over pensioenen: dekkingsgraden, beleggingskosten, nieuwe wetgeving etc. Eerder werkte zij onder meer op de beursredactie.</p>}
+            onEmailClick={() => {}}
+            onFollowAuthorClick={() => {}}
+            title="Nelleke Trappenburg"
+        />);
+        authorInfo = TestRenderer.create(<AuthorInfo
+            cardStyle="persoonlijk"
+            description={<p>Nelleke Trappenburg schrijft bij het FD over pensioenen: dekkingsgraden, beleggingskosten, nieuwe wetgeving etc. Eerder werkte zij onder meer op de beursredactie.</p>}
+            onEmailClick={() => {}}
+            onFollowAuthorClick={() => {}}
+            onLinkedInClick={() => {}}
+            title="Nelleke Trappenburg"
+        />);
+        authorInfo = TestRenderer.create(<AuthorInfo
+            cardStyle="persoonlijk"
+            description={<p>Nelleke Trappenburg schrijft bij het FD over pensioenen: dekkingsgraden, beleggingskosten, nieuwe wetgeving etc. Eerder werkte zij onder meer op de beursredactie.</p>}
+            onEmailClick={() => {}}
+            onFollowAuthorClick={() => {}}
+            onLinkedInClick={() => {}}
+            onTwitterClick={() => {}}
             title="Nelleke Trappenburg"
         />);
         expect(authorInfo.toJSON()).toMatchSnapshot();
