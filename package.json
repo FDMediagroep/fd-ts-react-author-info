@@ -1,6 +1,6 @@
 {
   "name": "@fdmg/fd-author-info",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "FD-themed author info",
   "types": "dist/AuthorInfo.d.ts",
   "main": "dist/author-info.js",
@@ -39,7 +39,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.9",
-    "@types/react": "^16.8.5",
+    "@types/react": "^16.8.6",
     "@types/react-dom": "^16.8.1",
     "@types/react-test-renderer": "^16.8.1",
     "@types/styled-components": "4.1.10",
@@ -55,14 +55,14 @@
     "jest-cli": "^24.1.0",
     "react-test-renderer": "^16.8.3",
     "ts-jest": "^24.0.0",
-    "tslint": "^5.13.0",
+    "tslint": "^5.13.1",
     "tslint-react": "^3.6.0",
     "typescript": "^3.3.3333",
-    "webpack": "^4.29.3",
+    "webpack": "^4.29.6",
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "@fdmg/fd-buttons": "^1.0.19",
+    "@fdmg/fd-buttons": "^1.0.20",
     "@fdmg/fd-card": "^1.0.9",
     "@fdmg/fd-typography": "^1.0.27",
     "react": "^16.8.3",

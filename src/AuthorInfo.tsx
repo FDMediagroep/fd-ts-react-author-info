@@ -88,7 +88,7 @@ const GlobalStyle = createGlobalStyle`
 
     .controls {
         border-top: 1px solid rgba(0,0,0,0.1);
-        button {
+        .fd-button {
             width: 100%;
             text-align: left;
             &:not(:last-child) {
