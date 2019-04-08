@@ -1,6 +1,6 @@
 {
   "name": "@fdmg/fd-author-info",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "FD-themed author info",
   "types": "dist/AuthorInfo.d.ts",
   "main": "dist/author-info.js",

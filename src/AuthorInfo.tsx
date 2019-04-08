@@ -72,6 +72,7 @@ const GlobalStyle = createGlobalStyle`
         }
         .fd-author-info-h {
             margin-bottom: .5rem;
+            line-height: 1.5;
         }
         .description {
             font-family: 'ProximaNovaRegular', sans-serif;
