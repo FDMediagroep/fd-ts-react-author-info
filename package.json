@@ -1,6 +1,6 @@
 {
   "name": "@fdmg/fd-author-info",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "FD-themed author info",
   "types": "dist/AuthorInfo.d.ts",
   "main": "dist/author-info.js",
@@ -63,7 +63,7 @@
   },
   "dependencies": {
     "@fdmg/fd-buttons": "^2.0.0",
-    "@fdmg/fd-card": "^2.0.0",
+    "@fdmg/fd-card": "^2.0.1",
     "@fdmg/fd-typography": "^2.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
