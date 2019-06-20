@@ -102,8 +102,6 @@ const styles = css`
 }
 `;
 
-const GlobalStyle = createGlobalStyle`${styles}`;
-
 export const AuthorInfoStyle = css`
 ${getAllCardStyles()}
 ${getAllTextStyles(['card-h'])}
@@ -111,3 +109,5 @@ ${FollowButtonStyle}
 ${ButtonEditorialStyles}
 ${styles}
 `;
+
+const GlobalStyle = createGlobalStyle`${AuthorInfoStyle}`;
