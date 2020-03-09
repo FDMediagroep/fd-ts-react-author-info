@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/FDMediagroep/fd-ts-react-author-info.svg?branch=master)](https://travis-ci.org/FDMediagroep/fd-ts-react-author-info)
 [![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fd-ts-react-author-info/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fd-ts-react-author-info?branch=master)
 [![npm version](https://badge.fury.io/js/%40fdmg%2Ffd-author-info.svg)](https://badge.fury.io/js/%40fdmg%2Ffd-author-info)
-[![Greenkeeper badge](https://badges.greenkeeper.io/FDMediagroep/fd-ts-react-author-info.svg)](https://greenkeeper.io/)
+
 
 # fd-author-info
 FD-themed author info.
